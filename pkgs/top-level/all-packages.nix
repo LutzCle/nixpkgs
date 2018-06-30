@@ -1379,6 +1379,8 @@ with pkgs;
 
   opendune = callPackage ../games/opendune { };
 
+  mapd = callPackage ../servers/sql/mapd { };
+
   meson = callPackage ../development/tools/build-managers/meson { };
 
   metabase = callPackage ../servers/metabase { };
