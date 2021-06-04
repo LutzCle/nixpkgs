@@ -6179,6 +6179,8 @@ in
 
   licensor = callPackage ../tools/misc/licensor { };
 
+  likwid = callPackage ../development/tools/likwid { };
+
   lesspipe = callPackage ../tools/misc/lesspipe { };
 
   liquidsoap = callPackage ../tools/audio/liquidsoap/full.nix {
